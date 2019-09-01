@@ -14,7 +14,11 @@ func start
 
 ##Deploy
 ```
-
 az login
-func azure functionapp publish function-app-01
+func azure functionapp publish function-app-a
+```
+
+##Show endpoint
+```
+func azure functionapp list-functions function-app-a --show-keys
 ```
